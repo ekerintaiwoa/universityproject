@@ -1,6 +1,11 @@
 import { combineReducers } from "redux";
+import  courses from './CourseReduce'
 
-const rootReducer = combineReducers({})
+const rootReducer = combineReducers({
+    courses
+
+
+})
 
 
 
